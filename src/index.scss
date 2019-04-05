@@ -1,8 +1,6 @@
-@import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
-
 body > #root > div {
   height: 100%;
-  overflow-y: hidden;
+  overflow-y: scroll;
   overflow-x: hidden;
 }
 @media screen and (min-width:320px) and (max-width: 767px){
@@ -11,7 +9,7 @@ body > #root > div {
   }
 }
 body {
-  font-family: 'Noto Sans KR', sans-serif;
+  font-family: 'Noto Sans KR', sans-serif!important;
   background-image: url('/images/background.jpg');
 }
 
