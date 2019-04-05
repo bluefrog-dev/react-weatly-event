@@ -1,13 +1,9 @@
 body > #root > div {
   height: 100%;
-  overflow-y: scroll;
+  overflow-y: hidden;
   overflow-x: hidden;
 }
-@media screen and (min-width:320px) and (max-width: 767px){
-  body > #root > div {
-    height: 100vh;
-  }
-}
+
 body {
   font-family: 'Noto Sans KR', sans-serif!important;
   background-image: url('/images/background.jpg');
