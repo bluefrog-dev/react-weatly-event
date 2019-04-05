@@ -1,0 +1,39 @@
+.App {
+  position:relative;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  align-items: center; 
+  
+}
+
+@media screen and (min-width:320px){
+  .slogan {
+    width: 304px;
+    height: 126px;
+    margin: 10px 8px 16px 8px;
+  }
+  
+  .phone {
+    width: 168px;
+    height: 345px;
+    margin: 0px 80px 12px 80px;
+  }
+}
+
+@media screen and (min-width:768px){
+  .slogan {
+    width: 456px;
+    height: 189px;
+    margin: 38px 0px 32px 0px;
+  }
+  
+  .phone {
+    width: 240px;
+    height: 506px;
+    margin: 0px 80px 12px 80px;
+  }
+}

@@ -1,0 +1,32 @@
+@import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
+
+html{
+  height: 100%;
+}
+
+#root{
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: 'Noto Sans KR', sans-serif;
+  background-image: url('/images/background.jpg');
+}
+
+@media screen and (min-width:320px){
+  body {
+    background-size: 300% cover;
+    background-position: 45% 20%;
+    
+  }
+}
+
+@media screen and (min-width:768px){
+  body {
+    background-size: cover;
+    background-position: center;
+  }
+}
